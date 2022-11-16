@@ -1,0 +1,30 @@
+reason_code,reason,notes_about_this_reason
+1,resiled,For a shift that was claimed that already started -- rare occurrence
+2,Professional_no_show,Professional failed to show up for the shift
+3,facility_sent_home,"Facility sent the Professional home for one of many reasons, including inapprofessionalpriate dress, lack of need, insufficient skills or experience, etc"
+4,professional_canceled_sick,Professional cancelled due to illness
+5,professional_canceled_another_job,Professional cancelled due to getting a shift somewhere else
+6,professional_canceled_not_qualified,Professional canceled after realising they were unqualified for the shift
+7,professional_canceled_misunderstood_shift_times,Professional canceled after realising the shift was not at the time they expected
+8,professional_canceled_pay,Professional cancelled due to the rate being different than expected (usually to low)
+9,fac_canceled_different_professional,"Facility canceled the shift for the Professional who picked it up, in order to assign it to a different Professional"
+10,fac_canceled_different_times_needed,Facility canceled the shift in order to reschedule shifts for different times
+11,fac_canceled_filled_with_another_service,"Facility canceled due to filling the shift with Professionals from another service (agency, travel, other per-diem)"
+12,fac_canceled_filled_with_own_staff,Facility canceled due to filling the shift with Professionals from their own staff
+13,fac_canceled_reduced_case_load,Facility canceled the shift due to lack of need for coverage
+14,professional_no_reason_given,professional canceled without professionalviding a reason for the cancellation
+15,fac_no_reason_given,Facility canceled without professionalviding a reason for the cancellation
+16,fac_sent_home_forgot_to_cancel,Facility sent the Professional home after realizing they forgot to cancel and the Professional showed up for work
+17,fac_sent_home_reduced_case_load,Facility sent the professional home after needing to reduce staff for lack of coverage need
+18,fac_sent_home_professional_not_qualified,Facility sent the professional home for not being qualified for the position
+19,fac_sent_home_no_reason_given,Facility sent the professional home without giving a reason
+20,tools_removed,Shift was canceled by an automated system or by a CareRev Employee -- usually for a case when a facility needs to bulk-cancel shifts or reschedule to different times. When this happens it will cancel the shift for the Professional.
+21,professional_other,"Professional canceled with the reason of ""other"""
+22,ghost_shift_floated,No longer used-- temporary measure for a ghost facility to float professionals to other facilities
+23,ghost_shift_cancelled,No longer used-- temporary measure for a ghost facility to float professionals to other facilities
+24,fac_canceled_other,"Facility canceled the shift with the reason of ""other"""
+25,professional_canceled_transportation_issues,Professional canceled after experiencing transportation issues
+26,professional_canceled_emergency,Professional canceled due to a personal emergency
+27,fac_canceled_asked_professional_to_cancel_on_their_behalf,"Facility asked the Professional to cancel on their behalf, and the Professional canceled the shift"
+28,fac_canceled_professional_not_willing_to_float,"Facility canceled the Professional due to a need for floating, and the Professional did not want to float."
+29,integration_removed,Integration with another party's site (i.e. Kronos) removed the shift
